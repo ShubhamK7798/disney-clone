@@ -1,0 +1,28 @@
+{
+  "name": "disney-clone",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next-auth/firebase-adapter": "^0.1.2-pr.183-76202b42.8",
+    "next": "12.0.10",
+    "next-auth": "^4.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-slick": "^0.28.1",
+    "sharp": "^0.30.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
+  }
+}

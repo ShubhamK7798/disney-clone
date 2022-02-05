@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-[#0d111c] text-white
+}
+
+.bbb{
+    @apply bg-white
+}
+
+
+.slick-slide {
+	margin: 0 2px;
+}
+/* the parent */
+.slick-list {
+	margin: 0 -2px;
+}
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+    
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
